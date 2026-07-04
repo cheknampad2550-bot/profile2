@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรไฟล์ - สุมิตรา พันธุ์วิวัฒธนา</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fdf5f6; /* สีพื้นหลังโทนสว่างอบอุ่น */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            max-width: 400px;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .header-bg {
+            background: linear-gradient(135deg, #d81b60, #ec407a, #f06292); /* สีแถบด้านบน */
+            height: 130px;
+        }
+
+        .avatar-container {
+            margin-top: -75px;
+            position: relative;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-info {
+            padding: 25px 30px;
+        }
+
+        .name {
+            font-size: 26px;
+            color: #333333;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        .details-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .details-table td {
+            padding: 12px 5px;
+            font-size: 16px;
+            color: #555555;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .details-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .details-table td.label {
+            font-weight: 600;
+            color: #444444;
+            width: 35%;
+        }
+
+        .social-link {
+            color: #ec407a;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .social-link:hover {
+            color: #d81b60;
+            text-decoration: underline;
+        }
+
+        .footer {
+            background-color: #fafafa;
+            padding: 15px;
+            font-size: 13px;
+            color: #999999;
+            border-top: 1px solid #eeeeee;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- ส่วนหัวตกแต่ง -->
+        <div class="header-bg"></div>
+        
+        <!-- รูปโปรไฟล์ -->
+        <div class="avatar-container">
+            <!-- อัปเดตชื่อไฟล์เป็น แม่_2.jpg แล้ว -->
+            <img src="แม่_2.jpg" alt="สุมิตรา พันธุ์วิวัฒธนา" class="avatar">
+        </div>
+
+        <!-- ข้อมูลโปรไฟล์ -->
+        <div class="profile-info">
+            <h1 class="name">สุมิตรา พันธุ์วิวัฒธนา</h1>
+            
+            <table class="details-table">
+                <tr>
+                    <td class="label">📞 เบอร์โทร:</td>
+                    <td>084-417-7341</td>
+                </tr>
+                <tr>
+                    <td class="label">📘 Facebook:</td>
+                    <td><a href="https://www.facebook.com/search/top/?q=สุมิตรา%20พันธุ์วิวัฒธนา" target="_blank" class="social-link">สุมิตรา พันธุ์วิวัฒธนา</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- ส่วนท้าย -->
+        <div class="footer">
+            Personal Profile Card © 2026
+        </div>
+    </div>
+
+</body>
+</html>
